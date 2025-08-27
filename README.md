@@ -19,49 +19,49 @@
 # Cart Screen
 
 - Shows all the items you’ve added.
--
+
 - You can increase or decrease quantities, or remove an item completely.
--
+
 - The total price updates automatically when you change quantities.
--
+
 - There’s a Checkout button that takes you to the checkout screen.
 
 # Checkout Screen
 
 - Shows an order summary with all selected items and the total cost.
--
+
 - There’s a box to enter coupon codes.
--
+
 - DISCOUNT10 → 10% off
--
+
 - DISCOUNT20 → 20% off
--
+
 - If the code is valid, the discount gets applied to the total.
--
+
 - Clicking Place Order saves the order to local storage and clears the cart.
 
 # Order History Screen
 
 - Lists all the past orders you’ve placed.
--
+
 - Each order shows the items, total amount, and the date it was placed.
--
+
 - Orders stay saved even if you restart the app.
 
 # Tech I Used
 
 - Flutter
--
+
 - Riverpod for state management
--
+
 - Dio/http for API calls
--
+
 - SharedPreferences for saving cart and orders locally
 
 # How to Run
 
 - Clone the repo
--
+  
 - Run flutter pub get
--
+
 - Start the app with flutter run
